@@ -1,0 +1,148 @@
+
+
+body {
+	font-family: 'Markazi Text', serif;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h1 {
+	font-size: 3rem;
+}
+p {
+  font-size: 1rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+header > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	width: auto;
+	height: 240px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	background-color: #495e57;
+	border-radius: 2rem 2rem;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	margin: 1rem;
+}
+
+li a {
+	font-size: 1.5em;
+	color: whitesmoke;
+	background-color: #495e57;
+}
+
+a:link {
+	text-decoration: none;
+	background-color: #495e57;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+section {
+	display: flex;
+}
+
+article {
+	flex: 1;
+}
+.cont img{
+  position:relative;
+  height: 300px;
+  width: 100%;
+	border-radius: 2rem 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white ;
+}
+.conttext   {
+  margin-left: 0;
+  margin-top: 50px;
+  position: absolute;
+  top:45%;
+  right:80%;
+  transform:translate(50%, -50%);
+  color: white;
+  background-color: transparent;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 5rem;
+
+}
+
+.wrapper section{
+	border-radius: 2rem 2rem;
+  align-items: center;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.wrapper li {
+  list-style-type: none;
+}
+
+.wrapper a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+footer {
+  margin-top: 5rem;
+  border-top: #495e57 5px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer img{
+  background-image: linear-gradient(to right, transparent 20px,  #495e57 20px),
+                    linear-gradient(to top, transparent 20px,  #495e57 20px),
+                    linear-gradient(to left, transparent 20px,  #495e57 20px),
+                    linear-gradient(to bottom, transparent 20px,  #495e57 20px);
+  background-position: 100% 0, 100% 0, 0 100%, 0 100%;
+  background-size: 100% 2px, 2px 100%;
+  background-repeat: no-repeat; 
+}
+
+
+footer div:first-child {
+  margin-top: 2rem;
+  max-width: 100%;
+  max-height: 10%;
+}
+
+footer div:last-child {
+
+  margin-top: 0px;
+}
+
+footer div img {
+  width: 100px; 
+}
+
+footer div p {
+
+  margin-bottom: 0;
+  text-align: right;
+}
